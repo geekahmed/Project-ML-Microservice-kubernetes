@@ -7,7 +7,7 @@ WORKDIR /repo
 ## Step 2:
 # Copy source code to working directory
 COPY . app.py /repo/
-COPY ./model_data /app/
+COPY ./model_data /repo/
 
 
 ## Step 3:
