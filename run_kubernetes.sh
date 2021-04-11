@@ -5,11 +5,12 @@
 # Step 1:
 # This is your Docker ID/path
 # dockerpath=<>
-dockerpath=<geekahmed/udacity-project-docker>
+dockerpath=geekahmed/udacity-project-docker
 
 # Step 2
 # Run the Docker Hub container with kubernetes
 
+kubectl run udacityprojectdocker --image=$dockerpath --port=80
 
 # Step 3:
 # List kubernetes pods

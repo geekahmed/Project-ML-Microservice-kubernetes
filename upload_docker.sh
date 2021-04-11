@@ -6,7 +6,7 @@
 # Step 1:
 # Create dockerpath
 
-dockerpath=<geekahmed/udacity-project-docker>
+dockerpath=geekahmed/udacity-project-docker
 
 # Step 2:  
 # Authenticate & tag
